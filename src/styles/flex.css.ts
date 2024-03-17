@@ -1,5 +1,5 @@
 import { recipe } from '@vanilla-extract/recipes';
-import { sprinkles } from './sprinkles.css';
+import { sprinkles } from './global/sprinkles.css';
 
 export const flex = recipe({
     base: [sprinkles({ display: 'flex' })],
